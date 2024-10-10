@@ -8,7 +8,7 @@ addBtn.addEventListener("click", (e) => {
   let remBtn = document.createElement("button");
   let p = document.createElement("p");
 
-  remBtn.textContent = "del";
+  remBtn.textContent = "delete";
   remBtn.classList.add("remBtnn");
   if (userInput.value != "") {
     todoBottom.append(div);

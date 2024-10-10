@@ -74,25 +74,30 @@ form {
 }
 .todo-bottom div{
     width: 100%;
-    height: 30px;
+    height: 50px;
     margin-top: 20px;
     background-color: gray;
     display: flex;
+    border-radius: 6px;
+
     align-items: center;
-    padding: 10px;
+    padding-left: 10px;
     justify-content: space-between;
 
 }
 
 .remBtnn {
     width: 60px;
-    border-radius: 10px;
+    border-radius: 0 6px 6px 0;
     height: 100%;
     color: #fff;
     background-color: red;
-    font-size: 18px;
+    font-size: 13px;
     border: none;
     cursor: pointer;
+    &:hover{
+        background-color: rgb(197, 13, 13);
+    },
     &:active{
         color: rgb(144, 13, 13);
     }
